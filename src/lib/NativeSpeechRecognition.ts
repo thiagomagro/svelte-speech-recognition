@@ -1,4 +1,4 @@
-import { browser } from "$app/env";
+import { browser } from "$app/environment";
 import type { SpeechRecognitionClass } from "@speechly/speech-recognition-polyfill";
 
 const NativeSpeechRecognition = !browser ? null : (navigator.brave ? null : window.SpeechRecognition || window.webkitSpeechRecognition);
