@@ -4,7 +4,7 @@ import {
     compareTwoStringsUsingDiceCoefficient,
     browserSupportsPolyfills
 } from './utils'
-import { browser } from '$app/env';
+import { browser } from '$app/environment';
 import isAndroid from './isAndroid';
 import RecognitionManager from './RecognitionManager'
 import { derived, get, writable, type Writable } from 'svelte/store';
